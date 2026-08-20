@@ -1,0 +1,64 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "with_featured_project",
+		"primary": {
+			"eyebrow": {
+				"__TYPE__": "FieldContent",
+				"value": "higher",
+				"type": "Text"
+			},
+			"cta_link": {
+				"key": "17dc25b5-d1d9-4418-9ae9-9e07b6fbed0b",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "alike"
+				}
+			},
+			"headline": {
+				"__TYPE__": "FieldContent",
+				"value": "organization",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Pariatur sit ut enim duis ea minim id ipsum nisi nulla do fugiat. Eiusmod officia ut amet est esse fugiat dolore est."
+						}
+					}
+				]
+			},
+			"dark": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"projects": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"project",
+								{
+									"__TYPE__": "LinkContent",
+									"key": "e6fcafc1-7b0b-4c45-aabd-2416bf9d4dae",
+									"value": {
+										"__TYPE__": "DocumentLink",
+										"id": "mock_document_id"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,94 @@
+{
+  "type": "SharedSlice",
+  "id": "project_showcase",
+  "name": "HorizontalShowcase",
+  "variations": [
+    {
+      "id": "with_featured_project",
+      "name": "Default",
+      "description": "Displays section intro and a primary featured project with category tags and project link.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "dark": {
+          "type": "Boolean",
+          "config": {
+            "label": "Light or dark?",
+            "placeholder_false": "Light",
+            "placeholder_true": "Dark",
+            "default_value": true
+          }
+        },
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": ""
+          }
+        },
+        "headline": {
+          "type": "Text",
+          "config": {
+            "label": "Headline",
+            "placeholder": ""
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link",
+            "placeholder": "",
+            "allowText": true,
+            "repeat": false,
+            "select": null
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "projects": {
+          "type": "Group",
+          "config": {
+            "label": "Projects",
+            "repeat": true,
+            "fields": {
+              "project": {
+                "type": "Link",
+                "config": {
+                  "label": "Project",
+                  "select": "document",
+                  "repeat": false,
+                  "customtypes": [
+                    {
+                      "id": "project",
+                      "fields": [
+                        "title",
+                        "location",
+                        "featured_image",
+                        {
+                          "id": "tags",
+                          "fields": [
+                            "tag"
+                          ]
+                        },
+                        "summary"
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"eyebrow": {
+				"__TYPE__": "FieldContent",
+				"value": "boat",
+				"type": "Text"
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ullamco consectetur excepteur occaecat in ad ullamco."
+						}
+					}
+				]
+			},
+			"stats": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+										"width": 3456,
+										"height": 4320
+									},
+									"url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+									"width": 3456,
+									"height": 4320,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"alt": "coach",
+									"credits": null,
+									"__TYPE__": "ImageContent"
+								}
+							],
+							[
+								"value",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "fourth",
+									"type": "Text"
+								}
+							],
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "fireplace",
+									"type": "Text"
+								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "bound",
+									"type": "Text"
+								}
+							],
+							[
+								"number_symbol",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "organization",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"dark": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"headline": {
+				"__TYPE__": "FieldContent",
+				"value": "worry",
+				"type": "Text"
+			},
+			"cta_link": {
+				"key": "5c128e7f-c074-45d6-a14e-52f9ec7c82bc",
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "why"
+				}
+			}
+		},
+		"items": []
+	}
+]

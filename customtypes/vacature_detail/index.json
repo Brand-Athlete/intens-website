@@ -1,0 +1,137 @@
+{
+	"format": "page",
+	"id": "vacature_detail",
+	"label": "Vacature detail",
+	"repeatable": true,
+	"status": true,
+	"json": {
+		"Main": {
+			"uid": {
+				"type": "UID",
+				"config": {
+					"label": "UID"
+				}
+			},
+			"vacature_image": {
+				"type": "Image",
+				"config": {
+					"label": "Vacature image",
+					"constraint": {},
+					"thumbnails": []
+				}
+			},
+			"vacature_title": {
+				"type": "Text",
+				"config": {
+					"label": "Vacature Title",
+					"placeholder": ""
+				}
+			},
+			"vacature_label": {
+				"type": "Text",
+				"config": {
+					"label": "Vacature label",
+					"placeholder": ""
+				}
+			},
+			"slices": {
+				"type": "Slices",
+				"fieldset": "Slice Zone",
+				"config": {
+					"choices": {
+						"testimonial_image_side": {
+							"type": "SharedSlice"
+						},
+						"job_description_overview": {
+							"type": "SharedSlice"
+						},
+						"hero_with_navigation_overlay": {
+							"type": "SharedSlice"
+						},
+						"side_by_side_media_slider": {
+							"type": "SharedSlice"
+						},
+						"text_with_feature_grid": {
+							"type": "SharedSlice"
+						},
+						"projects_grid_with_filters": {
+							"type": "SharedSlice"
+						},
+						"service_overview_grid": {
+							"type": "SharedSlice"
+						},
+						"media_grid": {
+							"type": "SharedSlice"
+						},
+						"project_showcase": {
+							"type": "SharedSlice"
+						},
+						"team_members_carousel": {
+							"type": "SharedSlice"
+						},
+						"image_gallery_two_column": {
+							"type": "SharedSlice"
+						},
+						"video_banner_section": {
+							"type": "SharedSlice"
+						},
+						"service_highlights": {
+							"type": "SharedSlice"
+						},
+						"services_slider": {
+							"type": "SharedSlice"
+						},
+						"navigational_media_grid": {
+							"type": "SharedSlice"
+						},
+						"text_only": {
+							"type": "SharedSlice"
+						},
+						"contact_info_sidebar": {
+							"type": "SharedSlice"
+						},
+						"impact_statistics": {
+							"type": "SharedSlice"
+						},
+						"multi_block_text_image": {
+							"type": "SharedSlice"
+						},
+						"customer_reviews": {
+							"type": "SharedSlice"
+						},
+						"logo_grid": {
+							"type": "SharedSlice"
+						}
+					}
+				}
+			}
+		},
+		"SEO & Metadata": {
+			"meta_title": {
+				"config": {
+					"label": "Meta Title",
+					"placeholder": "A title of the page used for social media and search engines"
+				},
+				"type": "Text"
+			},
+			"meta_description": {
+				"config": {
+					"label": "Meta Description",
+					"placeholder": "A brief summary of the page"
+				},
+				"type": "Text"
+			},
+			"meta_image": {
+				"config": {
+					"constraint": {
+						"height": 1260,
+						"width": 2400
+					},
+					"label": "Meta Image",
+					"thumbnails": []
+				},
+				"type": "Image"
+			}
+		}
+	}
+}

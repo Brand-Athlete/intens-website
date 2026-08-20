@@ -1,0 +1,174 @@
+{
+  "type": "SharedSlice",
+  "id": "hero_with_navigation_overlay",
+  "name": "Hero",
+  "variations": [
+    {
+      "id": "parallax",
+      "name": "Parallax",
+      "description": "This variation features the logo top left, navigation top right, headline and description bottom left, and a right-aligned call-to-action link overlayed on an image background.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "eyebrow": {
+          "type": "Text",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": ""
+          }
+        },
+        "headline": {
+          "type": "Text",
+          "config": {
+            "label": "Headline",
+            "placeholder": ""
+          }
+        },
+        "video_url": {
+          "type": "Link",
+          "config": {
+            "label": "Video URL",
+            "placeholder": "",
+            "select": "media",
+            "allowText": false
+          }
+        },
+        "poster_image": {
+          "type": "Image",
+          "config": {
+            "label": "Poster image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "column_1": {
+          "type": "Group",
+          "config": {
+            "label": "Column 1",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph,hyperlink"
+                }
+              }
+            }
+          }
+        },
+        "column_2": {
+          "type": "Group",
+          "config": {
+            "label": "Column 2",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph,hyperlink"
+                }
+              }
+            }
+          }
+        },
+        "column_3": {
+          "type": "Group",
+          "config": {
+            "label": "Column 3",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Item",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph,hyperlink"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "fullscreen",
+      "name": "Fullscreen",
+      "description": "This variation features the logo top left, navigation top right, headline and description bottom left, and a right-aligned call-to-action link overlayed on an image background.",
+      "version": "initial",
+      "imageUrl": "",
+      "docURL": "...",
+      "primary": {
+        "headline": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Headline",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading1"
+          }
+        },
+        "subheadline": {
+          "type": "StructuredText",
+          "config": {
+            "multi": "paragraph,strong,em,hyperlink",
+            "label": "Subheadline"
+          }
+        },
+        "eyebrow": {
+          "type": "StructuredText",
+          "config": {
+            "label": "eyebrow",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "Call to Action Link",
+            "allowText": true,
+            "repeat": false,
+            "select": null
+          }
+        },
+        "video_url": {
+          "type": "Link",
+          "config": {
+            "label": "Video URL",
+            "placeholder": "",
+            "select": "media",
+            "allowText": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "add_overlay": {
+          "type": "Boolean",
+          "config": {
+            "label": "Add overlay",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
