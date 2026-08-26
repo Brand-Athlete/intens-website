@@ -199,6 +199,9 @@
 </section>
 
 <style lang="scss">
+.logo-wall__logo-target :global(img) {
+	max-width: 100px;
+}
 	.logo-wall {
 		&__inner {
 			display: flex;

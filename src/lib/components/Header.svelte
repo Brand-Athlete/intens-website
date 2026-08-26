@@ -149,7 +149,7 @@
 		}
 
 		.header__logo {
-			max-width: clamp(8rem, 5vw, 11.25rem);
+			max-width: clamp(13rem, 5vw, 13rem);
 			position: relative;
 
 			transition: max-width 0.3s ease-in-out;

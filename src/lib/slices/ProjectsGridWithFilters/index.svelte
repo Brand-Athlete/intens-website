@@ -63,7 +63,7 @@
 	data-slice-variation={slice.variation}
 >
 	<div class="project-grid">
-		<div class="project-grid__filters">
+		<!-- <div class="project-grid__filters">
 			<div class="project-grid__filter">
 				<button
 					class="btn btn--outline {activeFilter === 'all' ? 'btn--active' : ''}"
@@ -84,7 +84,7 @@
 					</div>
 				{/if}
 			{/each}
-		</div>
+		</div> -->
 
 		<div class="container">
 			<div class="project-grid__projects">

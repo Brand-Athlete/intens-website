@@ -24,9 +24,9 @@
 				<div class="review">
 					<div class="review__inner">
 						<div class="review__top">
-							<div class="review__avatar">
+							<!-- <div class="review__avatar">
 								<PrismicImage field={item.avatar} />
-							</div>
+							</div> -->
 
 							<div class="review__info">
 								<p class="review__author">{item.name}</p>
