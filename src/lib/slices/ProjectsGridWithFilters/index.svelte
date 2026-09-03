@@ -101,9 +101,9 @@
 
 							<div class="project-card__inner">
 								<div class="project-card__top">
-									<div class="project-card__tags">
+									<!-- <div class="project-card__tags">
 										<span class="project-card__tag">{project.type}</span>
-									</div>
+									</div> -->
 									<div href={resolve(project.url)} title={project.title} class="btn btn--icon-only icon__button">
 										<i class="icon-arrow-right btn__icon"></i>
 									</div>
