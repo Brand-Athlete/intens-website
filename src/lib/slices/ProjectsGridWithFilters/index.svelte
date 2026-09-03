@@ -111,7 +111,7 @@
 
 								<div class="project-card__content">
 									<h2 class="project-card__title">{project.title}</h2>
-									<p class="project-card__summary">{project.summary}</p>
+									<!-- <p class="project-card__summary">{project.summary}</p> -->
 								</div>
 							</div>
 						</a>
@@ -127,10 +127,10 @@
 </section>
 
 <style>
-	.project-grid-section{
+	/* .project-grid-section{
 		padding-top: 100px;
 		padding-bottom: 200px;
-	}
+	} */
 	.project-grid {
 		display: flex;
 		flex-direction: column;

@@ -196,7 +196,6 @@
 			</div>
 		</div>
 	</div>
-	<div>test</div>
 </section>
 
 <style lang="scss">

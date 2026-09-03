@@ -36,7 +36,7 @@
 
 			<div class="carousel-banner__link">
 				<a href={resolve(`/projecten/${projectData.uid}`)} title={projectData.data.title}>
-					<span>Bekijk project</span>
+					<span>Bekijk dienst</span>
 					<i class="icon-arrow-right"></i>
 				</a>
 			</div>

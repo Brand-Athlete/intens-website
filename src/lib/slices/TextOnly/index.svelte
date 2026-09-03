@@ -12,7 +12,7 @@
 <section
 	data-slice-type={slice.slice_type}
 	data-slice-variation={slice.variation}
-	class="block-spacing text-only-section"
+	class="text-only-section"
 	data-reveal-group
 >
 	<div class="container">
@@ -30,6 +30,7 @@
 <style lang="scss">
 	.text-only-section {
 		padding-top: 6.25rem;
+		padding-bottom: 3rem;
 	}
 	.text-only {
 		display: flex;
