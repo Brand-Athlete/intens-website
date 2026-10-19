@@ -99,7 +99,7 @@
 								<PrismicImage field={project.image} />
 							</div>
 
-							<div class="project-card__inner test">
+							<div class="project-card__inner testt">
 								<div class="project-card__top">
 									<div href={resolve(project.url)} title={project.title} class="btn btn--icon-only icon__button">
 										<i class="icon-arrow-right btn__icon"></i>
